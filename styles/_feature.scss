@@ -1,0 +1,43 @@
+.feature__content {
+    display: grid;
+    place-items: center;
+    text-align: center; 
+}
+
+.feature_grid {
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2, 1fr));
+    gap: 20px;
+    @include breakpoint-up (small){
+        max-width: 60%;
+        grid-template-columns: repeat(1, max-content);
+        justify-content: center;
+        align-items: center;
+    }
+    @include breakpoint-up (medium){
+        width: 60%;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
+        align-items: center;
+    }
+    @include breakpoint-up (large){
+        max-width: 100%;
+        grid-template-columns: repeat(4, max-content);
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+
+.feature__item {
+    cursor: pointer;
+    background-color: #f0f0f0; 
+    padding: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    width: 255px;
+}
+
+
+

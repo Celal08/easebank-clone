@@ -1,0 +1,75 @@
+.footer {
+    background-color: #161422;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 0;
+}
+
+.soltaraf {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Footer__logo {
+    margin-bottom: 50px;
+    padding-left: 30px;
+    cursor: pointer;
+
+}
+
+.social {
+    display: flex;
+    padding-left: 30px;
+}
+
+.social a {
+    margin-right: 10px;
+    color: #333; 
+    &:hover{
+        color: $brightCyan;
+    }
+}
+
+.footer__list {
+    position: relative;
+    display: grid;
+    margin-inline-start: auto;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    
+    
+}
+
+.footer__list div {
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    width: 100%;
+    margin-bottom: 20px;
+    a{
+        &:hover{
+            color: $brightCyan;
+        }
+    }
+}
+
+.footer__list a {
+    color: #9e9494; /* ya da kullanmak istediğiniz renk */
+}
+
+
+
+
+.danger {
+    color: red; /* ya da kullanmak istediğiniz renk */
+}
+.b__copy{
+    align-items: baseline;
+    margin: auto;
+    font-size: 15px;
+   
+}
