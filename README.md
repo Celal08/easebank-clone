@@ -4,7 +4,7 @@ This project showcases the design of the Easebank-clone using HTML , CSS and SCS
 
 Udemig- Mehmet Can Seyhan Katkılarıyla
 
-Clone the repository: https://lnkd.in/dUrTFST5
+Clone the repository: [https://lnkd.in/dUrTFST5](https://github.com/Celal08/easebank-clone/tree/main)
 
 Technologies
 
